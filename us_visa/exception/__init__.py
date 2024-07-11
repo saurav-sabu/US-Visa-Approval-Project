@@ -19,7 +19,7 @@ def error_message_details(error, error_detail:sys):
     file_name = exc_tb.tb_frame.f_code.co_filename
     
     # Format the error message with filename, line number, and error message
-    error_message = f"Error occurred python script name [{0}] line number [{1}] error message [{2}]".format(file_name,exc_tb.tb_lineno,str(error))
+    error_message = "Error occurred python script name [{0}] line number [{1}] error message [{2}]".format(file_name,exc_tb.tb_lineno,str(error))
     return error_message
 
 class USVisaException (Exception):
