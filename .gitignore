@@ -131,6 +131,7 @@ env.bak/
 venv.bak/
 visa/
 
+mongo_experiment.ipynb
 # Spyder project settings
 .spyderproject
 .spyproject
